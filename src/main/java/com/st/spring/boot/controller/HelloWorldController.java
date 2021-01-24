@@ -20,6 +20,6 @@ public class HelloWorldController {
 	@GetMapping("/helloWorld/prop")
 	public String helloWorldProp(Model model) {
 		model.addAttribute("name", var);
-		return "helloWorldDynamic and ";
+		return "helloWorldDynamic";
 	}
 }
